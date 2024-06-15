@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+body {
+  background-color: #36454F;
+  color: #b38b6d;
+  font-family: "Fira Code", sans-serif;
+}
+
+.about_me {
+  font-size: 18px;
+  margin-left: 22%;
+  min-height: 100vh;
+}
+
+.about_me h1 {
+  background-color: #9AAB89;
+  color: #36454F;
+  border-radius: 10px;
+  padding: 2px 4px;
+  display: inline-block;
+}
+
+.about_me p {
+  padding-top: 10px;
+  font-size: 18px;
+  margin-right: 30%;
+}
+
+.about_me p a {
+  text-decoration: underline;
+  text-decoration-color: #9AAB89;
+}
+
+.about_me p a:hover {
+  color: #9AAB89;
+}
+
+.work_experience {
+  font-size: 18px;
+  margin-left: 22%;
+  min-height: 100vh;
+}
+
+.work_experience li {
+  padding-top: 10px;
+  margin-left: 1.5%;
+  margin-right: 30%;
+}
+
+.work_experience a {
+  text-decoration: underline;
+  text-decoration-color: #9AAB89;
+}
+
+.work_experience a:hover {
+  color: #9AAB89;
+}
