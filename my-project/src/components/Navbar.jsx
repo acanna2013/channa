@@ -6,13 +6,17 @@ const Navbar = () => {
         <header className="flex justify-between items-center p-14">
             <div className="name">
                 anna chen
+                <br/>
+                <p>
+                    software engineer,
+                    <br/> data scientist.
+                </p>
             </div>
             <div className="navbar">
                 <ul>
-                    <li><a href="#about">about me</a></li>
-                    <li><a href="#experiences">work experiences</a></li>
-                    <li><a href="#projects">outside projects</a></li>
-                    <li><a href="#contact">contact me</a></li>
+                    <li><a href="#about">intro</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#contact">contact</a></li>
                     <li><a href="#resume">resume</a></li>
                 </ul>
             </div>

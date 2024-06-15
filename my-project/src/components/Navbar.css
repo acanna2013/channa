@@ -1,12 +1,16 @@
 .name {
     color: #b38b6d;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 40px;
     margin-left: 20%;
-    margin-top: 2%;
+    margin-top: 1%;
     position: relative;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.name p {
+    font-size: 20px;
 }
 
 .navbar {
@@ -44,7 +48,7 @@
     border-radius: 10px;
     padding: 2px 4px;
     display: inline-block;
-  }
+  } 
 
 /* Media query for responsiveness to different screen sizes */
 @media screen and (max-width: 768px) {

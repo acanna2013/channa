@@ -6,6 +6,7 @@ body {
 }
 
 .about_me {
+  margin-top: 10%;
   font-size: 18px;
   margin-left: 22%;
   min-height: 100vh;

@@ -1,9 +1,12 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar"; // navigation bar configs
 import './App.css'
+import BackgroundEffect from "./BackgroundEffect"; // for the spotlight effect for cursor hovering
+
 
 export const App = () => {
   return (
       <div>
+        <BackgroundEffect/>
         <Navbar />
         <div className="mt-40">
           <section id="about" className="about_me">
@@ -19,7 +22,7 @@ export const App = () => {
             </p>
           </section>
           
-          <section id="experiences" className="work_experience">
+          <section id="experience" className="work_experience">
             <h1>i'm currently working at <a href="https://www.amazon.com/" target="_blank">Amazon</a> on the <a href="https://www.onemedical.com/" target="_blank">
               One Medical</a> team as a SWE intern.
             </h1>
@@ -37,7 +40,7 @@ export const App = () => {
           </section>
 
 
-          <section id="projects" className="min-h-screen">
+          <section id="contact" className="min-h-screen">
             <h1>Projects</h1>
             <p>This is the Projects section.</p>
           </section>
