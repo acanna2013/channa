@@ -15,12 +15,9 @@ const BackgroundEffect = () => {
         };
     }, []);
 
-    // const handleRedirect = () => {
-    //     history.push('/new-page');
-    // };
-
+    // fixed inset-0 pointer-events-none z-0: allows the background effect to apply to entirety of page regardless of other components
     return (
-        <div className="">
+        <div className="fixed inset-0 pointer-events-none z-0"> 
             <div
                 className="absolute pointer-events-none transform -translate-x-1/2 -translate-y-1/2 opacity-15"
                 style={{
@@ -28,7 +25,7 @@ const BackgroundEffect = () => {
                     height: '300px',
                     left: `${position.x}px`,
                     top: `${position.y}px`,
-                    background: 'radial-gradient(circle, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 70%)',
+                    background: 'radial-gradient(circle, #b38b6d66 20%, #b38b6d00 70%)',
                     borderRadius: '80%',
                 }}
             />
