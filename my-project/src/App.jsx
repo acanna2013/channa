@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import Timeline from './components/Experience';
 import FadeIn from "./components/FadeIn";
 import ProjectTile from "./components/Project";
+import Contact from "./components/Contact";
 
 const experiences = [
   {
@@ -33,36 +34,6 @@ const experiences = [
   }
 ];
 
-
-const projects = [
-  {
-    title: 'Lumière Shorts',
-    description: 'A curated short film streaming service on web and mobile',
-    image: 'path-to-image1.jpg',
-    tags: ['AWS', 'NextJS', 'Scikit-learn', 'Firebase']
-  },
-  {
-    title: 'Deep Neural Network',
-    description: 'Implementation and visualization of model fitting and learning',
-    image: 'path-to-image2.jpg',
-    tags: ['Python', 'NumPy', 'SymPy', 'Matplotlib']
-  },
-  {
-    title: 'Gradient Descent',
-    description: 'Implementation and visualization of machine learning algorithm',
-    image: 'path-to-image3.jpg',
-    tags: ['Python', 'NumPy', 'SymPy', 'Matplotlib']
-  },
-  {
-    title: 'Terrain Generator',
-    description: 'Terrain Generation using the Perlin Noise algorithm',
-    image: 'path-to-image4.jpg',
-    tags: ['Python', 'NumPy', 'Matplotlib']
-  }
-];
-
-
-
 export const App = () => {
   return (
       <div>
@@ -70,7 +41,9 @@ export const App = () => {
         <Navbar />
         <div className="mt-40">
           <FadeIn>
+          <section id="intro" className="mt-40">
             <AboutMe />
+            </section>
           </FadeIn>
           <FadeIn>
             <section id="experience" className="work_experience">
@@ -79,33 +52,16 @@ export const App = () => {
           </FadeIn>
 
           <FadeIn>
-          <section id="projects" className="min-h-screen">
-            {projects.map((project, index) => (
-              <ProjectTile
-                key={index}
-                title={project.title}
-                description={project.description}
-                image={project.image}
-                tags={project.tags}
-              />
-            ))}
+          <section id="projects" className="mt-40">
+            <ProjectTile />
           </section>
           </FadeIn>
 
           <FadeIn>
-          <section id="contact" className="min-h-screen">
-            <h1>contact</h1>
-            <p>This is the contact section.</p>
+          <section id="contact" className="mt-80">
+            <Contact/>
           </section>
           </FadeIn>
-
-          <FadeIn>
-          <section id="resume" className="min-h-screen">
-            <h1>resume</h1>
-            <p>This is the resume section.</p>
-          </section>
-          </FadeIn>
-
         </div>
         
 

@@ -1,5 +1,5 @@
 import './Navbar.css'; // CSS for styling the nav bar
-import { BrowserRouter as Router, Link } from 'react-router-dom'; // route between diff pages
+import { BrowserRouter as Router } from 'react-router-dom'; // route between diff pages
 
 
 /* create the nav bar for website, the top part */
@@ -21,7 +21,7 @@ const Navbar = () => {
                     <li><a href="#experience">experience</a></li>
                     <li><a href="#projects">projects</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a href="#resume">resume</a></li>
+                    <li><a href="/Resume_2024 (1).pdf" target="_blank" className="btn">resume</a></li>
                 </ul>
             </div>
             </Router>
