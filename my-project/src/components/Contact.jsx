@@ -1,19 +1,14 @@
 import { useState } from 'react';
 
 function Contact() {
-  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log({ name, email, message });
-  };
 
   return (
     <div className="max-w-md mx-auto p-6 rounded-md shadow-md" style={{ backgroundColor: '#6B7280'}}>
       <h2 className="text-2xl font-bold mb-4">contact me</h2>
-      <form action="mailto:ac.anna2013@gmail.com" method="post" enctype="text/plain" onSubmit={handleSubmit} className="space-y-4">
+      <form action="mailto:ac.anna2013@gmail.com" method="POST" data-netlify="true" className="space-y-4">
         <div>
             <h2 className="block text-sm font-medium" style={{ color: '#4a5568' }}>
                 <a href='https://www.linkedin.com/in/chnanna/' target='_blank'> -> linkedin</a>

@@ -52,18 +52,23 @@ export const App = () => {
           </FadeIn>
 
           <FadeIn>
-          <section id="projects" className="mt-40">
+          <section id="projects" className="mt-40 h-screen flex items-center justify-center">
             <ProjectTile />
           </section>
           </FadeIn>
 
           <FadeIn>
-          <section id="contact" className="mt-80">
+          <section id="contact" className="mt-40 items-center justify-center -mb-4">
             <Contact/>
+            <footer class="text-center p-4 mt-20">
+              made with tailwind css, 
+              react js, and love ♡.
+              <br/>thank you for visiting. 
+              <br/>谢谢 xièxie.
+            </footer>
           </section>
           </FadeIn>
-        </div>
-        
+        </div>      
 
       </div>
       )
