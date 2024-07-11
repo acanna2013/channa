@@ -1,4 +1,4 @@
-# Personal Website @ [chen-anna.com](chen-anna.com)
+# Personal Website @ [chen-anna.com](https://www.chen-anna.com/)
 Built using ```Tailwind CSS, React JS, HTML```. Deployed it using [Vercel](https://vercel.com/), which is a cloud platform for deploying, previewing, and scaling front-end frameworks and static sites. 
 
 ### Want to run locally?
