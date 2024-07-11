@@ -21,7 +21,7 @@ const Navbar = () => {
                     <li><a href="#experience">experience</a></li>
                     <li><a href="#projects">projects</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a href="/Resume_2024 (1).pdf" target="_blank" className="btn">resume</a></li>
+                    <li><a href="/Resume_2024 (4).pdf" target="_blank" className="btn">resume</a></li>
                 </ul>
             </div>
             </Router>

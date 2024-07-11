@@ -62,9 +62,8 @@ export const App = () => {
             <Contact/>
             <footer class="text-center p-4 mt-20">
               made with tailwind css, 
-              react js, and love ♡.
-              <br/>thank you for visiting. 
-              <br/>谢谢 xièxie.
+              react js, and plain css.
+              <br/>谢谢 xièxie for visiting.
             </footer>
           </section>
           </FadeIn>

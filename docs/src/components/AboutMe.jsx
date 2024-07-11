@@ -6,7 +6,7 @@ export const AboutMe = () => {
             i'm an undergraduate senior, double majoring in computer science and data science @ <a href="https://www.cs.purdue.edu/" target="_blank">Purdue University</a>.
             <br/>
             <br/>
-            i have an insatiable curiousity for numbers and their stories. i enjoy turning ideas into feasible and impactful products.
+            i enjoy turning ideas into feasible and impactful products.
             <br/>
             <br/>
             my hobbies involve mechanical keyboards, legos, and exercise.
